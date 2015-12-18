@@ -4,7 +4,7 @@
     CopyRight 2015 All Rights Reserved
 */
 
-define("TOKEN", "weixin");
+define("TOKEN", "weixin1");
 
 $wechatObj = new wechatCallbackapiTest();
 if (!isset($_GET['echostr'])) {
