@@ -9,8 +9,10 @@ define("TOKEN", "weixin1");
 $wechatObj = new wechatCallbackapiTest();
 if (!isset($_GET['echostr'])) {
     $wechatObj->responseMsg();
+    echo "echoStr is not set";
 }else{
     $wechatObj->valid();
+    echo "echoStr is set";
 }
 
 class wechatCallbackapiTest
